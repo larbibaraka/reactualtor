@@ -1,4 +1,48 @@
 #root{
     background: #000;
     color: white;
+    font-family: 'Orbitron', sans-serif;
 }
+.buttons{
+    padding: 5%;
+}
+
+.btn{
+    background: #323232;
+    color: white;
+    padding: 5%;
+    border: 0px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn:focus{
+    background: white;
+    color: #323232;
+ }
+
+.btn-calc{
+    background: #FF9500;
+  
+}
+.btn-action{
+    background: #A6A6A6;
+    color: #323232;
+    
+}
+
+.btn-0{
+    background: #323232;
+    color: white;
+    border: 0px;
+    margin: 5px;
+    padding: 5%;
+    width: 130px;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 25px;
+}
+

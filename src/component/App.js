@@ -12,7 +12,7 @@ class App extends Component {
             <button className="btn btn-action">C</button>
             <button className="btn btn-action">+/-</button>
             <button className="btn btn-action">%</button>
-            <button className="btn btn-calc">./.</button>
+            <button className="btn btn-calc">÷</button>
           </div>
           <div className="row2">
             <button className="btn">7</button>
@@ -33,10 +33,9 @@ class App extends Component {
             <button className="btn btn-calc">+</button>
           </div>
           <div className="row5">
-            <button className="btn btn-0">0</button>
-            <button className="btn">0</button>
+            <button className=" btn-0">0</button>
             <button className="btn">.</button>
-            <button className="btn">=</button>
+            <button className="btn btn-calc">=</button>
           </div>
         </div>
       </div>
