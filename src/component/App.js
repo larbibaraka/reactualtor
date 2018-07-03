@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div className="myCalculator">
         <div className="result">
-          <p>24</p>
+          <p>15+512</p>
         </div>
         <div className="buttons">
           <div className="row1">
