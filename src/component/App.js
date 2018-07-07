@@ -8,11 +8,14 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      result :  "",
+      result :  "0",
 
     }
     this.handleclicks = this.handleclicks.bind(this);
   }
+
+
+  
 
   handleclicks = (value)=>{
     switch(value){
@@ -31,9 +34,17 @@ class App extends Component {
         case '-':
         case '/':
         case '*':
-             this.setState({
+             if(this.state.result === "0"){
+                this.setState({
+                  result : value
+                });
+                
+             }else{
+                this.setState({
                result : this.state.result+value
              });
+             }
+            
              break;
         case '=':
               //todo add a regex test to see if the statment is correct before passing it to eval
