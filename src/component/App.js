@@ -14,9 +14,6 @@ class App extends Component {
     this.handleclicks = this.handleclicks.bind(this);
   }
 
-
-  
-
   handleclicks = (value)=>{
     switch(value){
         case '0':
@@ -44,8 +41,7 @@ class App extends Component {
                result : this.state.result+value
              });
              }
-            
-             break;
+            break;
         case '=':
               //todo add a regex test to see if the statment is correct before passing it to eval
               //todo limit the result  to 14
@@ -70,7 +66,6 @@ class App extends Component {
     }
   
   }
-  
   
   render() {
     return (

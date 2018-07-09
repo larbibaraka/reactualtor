@@ -25,6 +25,7 @@
     margin: 5px;
     font-size: 25px;
     cursor: pointer;
+    outline: none;
 }
 .btn:focus{
     background: white;
@@ -51,6 +52,7 @@
     height: 60px;
     font-size: 25px;
     cursor: pointer;
+    outline: none;
 }
 .btn-0:focus{
     background: white;
